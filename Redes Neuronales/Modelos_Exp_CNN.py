@@ -198,6 +198,32 @@ def select_exp(model, dataset, n_exp):
         model.add(Dense(10, activation='softmax'))
 
         name = "Exp_9"
+    elif n_exp == 10:
+        model.add(Conv2D(32, (3, 3), activation='relu', kernel_initializer='he_uniform', padding='same'))
+        model.add(BatchNormalization())
+        model.add(Conv2D(32, (3, 3), activation='relu', kernel_initializer='he_uniform', padding='same', input_shape=(W_px, H_px, n_channels)))
+        model.add(BatchNormalization())
+        model.add(MaxPooling2D((2, 2)))
+        model.add(Dropout(0.5))
+        model.add(Conv2D(64, (3, 3), activation='relu', kernel_initializer='he_uniform', padding='same'))
+        model.add(BatchNormalization())
+        model.add(Conv2D(64, (3, 3), activation='relu', kernel_initializer='he_uniform', padding='same'))
+        model.add(BatchNormalization())
+        model.add(MaxPooling2D((2, 2)))
+        model.add(Dropout(0.5))
+        model.add(Conv2D(128, (3, 3), activation='relu', kernel_initializer='he_uniform', padding='same'))
+        model.add(BatchNormalization())
+        model.add(Conv2D(128, (3, 3), activation='relu', kernel_initializer='he_uniform', padding='same'))
+        model.add(BatchNormalization())
+        model.add(Conv2D(128, (3, 3), activation='relu', kernel_initializer='he_uniform', padding='same'))
+        model.add(BatchNormalization())
+        model.add(MaxPooling2D((2, 2)))
+        model.add(Dropout(0.5))
+        model.add(Flatten())
+        model.add(Dense(128, activation='relu', kernel_initializer='he_uniform'))
+        model.add(Dense(10, activation='softmax'))
+
+        name = "Exp_10"
     else:
         print("Invalid experiment number")
         return
