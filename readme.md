@@ -11,6 +11,8 @@
 ------------------------------------
 ## Ejemplos de Redes Neuronales Densas y Convolucionales para Clasificación de Imagenes
 
+[Link de Carpeta con Modelos Entrenados](https://drive.google.com/drive/folders/1-B_6Fbhib1IszEmcK23hTW1iVnaBkxnO?usp=sharing)
+
 | Notebook                             |Descripción                                                        |
 |---                                   |---                                                                |
 | [RedNeuronal_MNIST_Numbers](https://tinyurl.com/23zzh4qg)            |Clasificación de números escritos a mano con una Red Neuronal                    |
