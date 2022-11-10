@@ -25,7 +25,7 @@
 | [CNN_CIFAR10](https://ibit.ly/zY4j)                          |Clasificación de imagenes del dataset CIFAR10 con una Redes Neuronales Convolucionales utilizando estructuras VGG + salvar y aplicar el modelo|
 | [CNN_CIFAR10_Exp](https://ibit.ly/RxXx)                      |Clasificación de imagenes del dataset CIFAR10 con una Redes Neuronales Convolucionales utilizando estructuras VGG|
 | [CNN_CIFAR10_Exp_loop](https://ibit.ly/QA-0)                 |Clasificación de imagenes del dataset CIFAR10 con una Redes Neuronales Convolucionales utilizando estructuras VGG + 10 experimentos en un loop|
-| [CNN_CIFAR10_TL](https://ibit.ly/PRmE)                       |Clasificación de imagenes del dataset CIFAR10 con con una Redes Neuronales Convolucionales aplicando Transfer Learning y el modelo VGG16|
+| [CNN_CIFAR10_TL](https://is.gd/F67o6W)                       |Clasificación de imagenes del dataset CIFAR10 con con una Redes Neuronales Convolucionales aplicando Transfer Learning y el modelo VGG16|
 | [CNN_CIFAR10_TL_2](https://twtr.to/EnJU)                     |Clasificación de imagenes del dataset CIFAR10 con con una Redes Neuronales Convolucionales aplicando Transfer Learning y el modelo VGG19|
 | [Modelos_Exp_CNN](https://ibit.ly/80TS)                      |Configuración de 10 modelos basados en la estructura VGG + opciones con dropout, batch normalization, data augmentation|
 
