@@ -44,8 +44,8 @@ def select_exp(model, dataset, n_exp):
         name = "Exp_2"
 
     elif n_exp ==3:
-        model.add(Conv2D(32, (3, 3), activation='relu', kernel_initializer='he_uniform', padding='same'))
         model.add(Conv2D(32, (3, 3), activation='relu', kernel_initializer='he_uniform', padding='same', input_shape=(W_px, H_px, n_channels)))
+        model.add(Conv2D(32, (3, 3), activation='relu', kernel_initializer='he_uniform', padding='same'))
         model.add(MaxPooling2D((2, 2)))
         model.add(Conv2D(64, (3, 3), activation='relu', kernel_initializer='he_uniform', padding='same'))
         model.add(Conv2D(64, (3, 3), activation='relu', kernel_initializer='he_uniform', padding='same'))
@@ -60,8 +60,8 @@ def select_exp(model, dataset, n_exp):
 
         name = "Exp_3"
     elif n_exp == 4:
-        model.add(Conv2D(32, (3, 3), activation='relu', kernel_initializer='he_uniform', padding='same'))
         model.add(Conv2D(32, (3, 3), activation='relu', kernel_initializer='he_uniform', padding='same', input_shape=(W_px, H_px, n_channels)))
+        model.add(Conv2D(32, (3, 3), activation='relu', kernel_initializer='he_uniform', padding='same'))
         model.add(MaxPooling2D((2, 2)))
         model.add(Dropout(0.2))
         model.add(Conv2D(64, (3, 3), activation='relu', kernel_initializer='he_uniform', padding='same'))
@@ -80,8 +80,8 @@ def select_exp(model, dataset, n_exp):
         name = "Exp_4"
 
     elif n_exp == 5:
-        model.add(Conv2D(32, (3, 3), activation='relu', kernel_initializer='he_uniform', padding='same'))
         model.add(Conv2D(32, (3, 3), activation='relu', kernel_initializer='he_uniform', padding='same', input_shape=(W_px, H_px, n_channels)))
+        model.add(Conv2D(32, (3, 3), activation='relu', kernel_initializer='he_uniform', padding='same'))
         model.add(MaxPooling2D((2, 2)))
         model.add(Dropout(0.5))
         model.add(Conv2D(64, (3, 3), activation='relu', kernel_initializer='he_uniform', padding='same'))
@@ -100,9 +100,9 @@ def select_exp(model, dataset, n_exp):
         name = "Exp_5"
 
     elif n_exp == 6:
-        model.add(Conv2D(32, (3, 3), activation='relu', kernel_initializer='he_uniform', padding='same'))
-        model.add(BatchNormalization())
         model.add(Conv2D(32, (3, 3), activation='relu', kernel_initializer='he_uniform', padding='same', input_shape=(W_px, H_px, n_channels)))
+        model.add(BatchNormalization())
+        model.add(Conv2D(32, (3, 3), activation='relu', kernel_initializer='he_uniform', padding='same'))
         model.add(BatchNormalization())
         model.add(MaxPooling2D((2, 2)))
         model.add(Conv2D(64, (3, 3), activation='relu', kernel_initializer='he_uniform', padding='same'))
@@ -123,9 +123,9 @@ def select_exp(model, dataset, n_exp):
 
         name = "Exp_6"    
     elif n_exp == 7:
-        model.add(Conv2D(32, (3, 3), activation='relu', kernel_initializer='he_uniform', padding='same'))
-        model.add(BatchNormalization())
         model.add(Conv2D(32, (3, 3), activation='relu', kernel_initializer='he_uniform', padding='same', input_shape=(W_px, H_px, n_channels)))
+        model.add(BatchNormalization())
+        model.add(Conv2D(32, (3, 3), activation='relu', kernel_initializer='he_uniform', padding='same'))
         model.add(BatchNormalization())
         model.add(MaxPooling2D((2, 2)))
         model.add(Dropout(0.2))
@@ -150,9 +150,9 @@ def select_exp(model, dataset, n_exp):
         name = "Exp_7"
 
     elif n_exp == 8:
-        model.add(Conv2D(32, (3, 3), activation='relu', kernel_initializer='he_uniform', padding='same'))
-        model.add(BatchNormalization())
         model.add(Conv2D(32, (3, 3), activation='relu', kernel_initializer='he_uniform', padding='same', input_shape=(W_px, H_px, n_channels)))
+        model.add(BatchNormalization())
+        model.add(Conv2D(32, (3, 3), activation='relu', kernel_initializer='he_uniform', padding='same'))
         model.add(BatchNormalization())
         model.add(MaxPooling2D((2, 2)))
         model.add(Conv2D(64, (3, 3), activation='relu', kernel_initializer='he_uniform', padding='same'))
@@ -173,9 +173,9 @@ def select_exp(model, dataset, n_exp):
 
         name = "Exp_8"
     elif n_exp == 9:
-        model.add(Conv2D(32, (3, 3), activation='relu', kernel_initializer='he_uniform', padding='same'))
-        model.add(BatchNormalization())
         model.add(Conv2D(32, (3, 3), activation='relu', kernel_initializer='he_uniform', padding='same', input_shape=(W_px, H_px, n_channels)))
+        model.add(BatchNormalization())
+        model.add(Conv2D(32, (3, 3), activation='relu', kernel_initializer='he_uniform', padding='same'))
         model.add(BatchNormalization())
         model.add(MaxPooling2D((2, 2)))
         model.add(Dropout(0.2))
@@ -199,9 +199,9 @@ def select_exp(model, dataset, n_exp):
 
         name = "Exp_9"
     elif n_exp == 10:
-        model.add(Conv2D(32, (3, 3), activation='relu', kernel_initializer='he_uniform', padding='same'))
-        model.add(BatchNormalization())
         model.add(Conv2D(32, (3, 3), activation='relu', kernel_initializer='he_uniform', padding='same', input_shape=(W_px, H_px, n_channels)))
+        model.add(BatchNormalization())
+        model.add(Conv2D(32, (3, 3), activation='relu', kernel_initializer='he_uniform', padding='same'))
         model.add(BatchNormalization())
         model.add(MaxPooling2D((2, 2)))
         model.add(Dropout(0.5))
